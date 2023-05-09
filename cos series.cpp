@@ -14,8 +14,7 @@ void main()
     scanf("%d",&n);
      
     x=x*3.14159/180;
-     
-    /* Loop to calculate the value of Cosine */
+    
     for(i=1;i<=n;i++)
     {
         t=t*(-1)*x*x/(2*i*(2*i-1));
